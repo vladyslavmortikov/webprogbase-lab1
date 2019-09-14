@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'Oswald', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+}
+
+body{
+    background-color: white;
+    }
+
+#site-body{
+    width: 1200px;
+    margin: 5px auto;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    color: #4a6da7;
+}
+
+header{
+width: 1200px;
+height: 100px;
+background-color: white;
+}
+
+.photo-logo{
+    padding-left:20px;
+    float: left;
+    margin: 15px auto;
+    width: 200px;
+    height: 60px; 
+}
+
+.main-photo {
+    float: center;
+    margin: auto;
+    width: 1100px;
+    height: 680px; 
+}
+
+.top-menu{
+    width: 700px;
+    height: 100px;
+    float: right;
+}
+
+.top-menu ul li{
+    list-style: none;
+    float: left;
+    text-align: right;
+}
+
+.top-menu ul li a{
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #4a6da7;
+    height: 50px;
+    padding-left:20px;
+    padding-top: 40px;
+    cursor: pointer;
+}
