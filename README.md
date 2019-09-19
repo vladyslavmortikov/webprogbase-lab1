@@ -1,2 +1,1 @@
-# webprogbase-lab1
-WELCOME TO THE [SECONDARY SCHOOL #2 SITE](https://vladyslavmortikov.github.io/webprogbase-lab1/)!
+1.[LAB-1 SCHOOL WEBSITE](https://vladyslavmortikov.github.io/webprogbase-lab1/)

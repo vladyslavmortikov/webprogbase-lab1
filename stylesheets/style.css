@@ -9,21 +9,55 @@
 }
 
 body{
-    background-color: white;
-    }
+    background-color: #ebe9e6;
+}
 
 #site-body{
     width: 1200px;
-    margin: 5px auto;
+    margin: auto;
     height: auto;
     font-family: 'Oswald', sans-serif;
     color: #4a6da7;
 }
 
 header{
-width: 1200px;
-height: 100px;
-background-color: white;
+    width: 1200px;
+    height: 100px;
+    background-color: #4a6da7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+p {
+    margin: 15px 15px 15px 15px;
+    float: justify;
+}
+
+table td {
+    padding: 12px 16px;
+}
+
+table thead tr {
+    font-weight: bold;
+    border-top: 1px solid #e8e9eb;
+}
+
+table tr {
+    border-bottom: 1px solid #e8e9eb;
+}
+
+table tbody tr:hover {
+    background: #e8f6ff;
+}
+
+.news-photo{
+    float: left;
+    margin: 0 15px 15px 15px;
+    width: 400px;
+    height: 230px;
 }
 
 .photo-logo{
@@ -31,14 +65,42 @@ background-color: white;
     float: left;
     margin: 15px auto;
     width: 200px;
-    height: 60px; 
+    height: 60px;
+}
+
+.author-photo {
+    float: right;
+    margin: 15px 15px 15px 15px;
+    width: 400px;
+    height: 230px;
+}
+
+.user-photo{
+    float: left;
+    margin: 0 15px 0px 0px;
+    width: 500px;
+    height: auto;
 }
 
 .main-photo {
     float: center;
     margin: auto;
-    width: 1100px;
-    height: 680px; 
+    width: 1200px;
+    height: 680px;
+}
+
+.header-text{
+    background-color: #3a3736;
+    color: white;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    background: #3a3736;
+    color: #fff;
+    width: 1180px;
 }
 
 .top-menu{
@@ -50,7 +112,7 @@ background-color: white;
 .top-menu ul li{
     list-style: none;
     float: left;
-    text-align: right;
+    text-align: center;
 }
 
 .top-menu ul li a{
@@ -59,7 +121,7 @@ background-color: white;
     width: 100px;
     text-decoration: none;
     font-size: 17px;
-    color: #4a6da7;
+    color: white;
     height: 50px;
     padding-left:20px;
     padding-top: 40px;
